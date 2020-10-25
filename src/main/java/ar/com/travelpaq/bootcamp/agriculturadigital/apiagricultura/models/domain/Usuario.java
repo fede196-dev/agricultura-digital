@@ -3,10 +3,9 @@ package ar.com.travelpaq.bootcamp.agriculturadigital.apiagricultura.models.domai
 public class Usuario {
 
     Integer id;
+    String nom_usuario;
     String password;
     String nombre;
     String apellido;
-    String dni;
-    String profesion;
-    String email;
+
 }
