@@ -2,13 +2,13 @@ package ar.com.travelpaq.bootcamp.agriculturadigital.apiagricultura.models.domai
 
 public class Proyecto {
 
-    Integer id_proyecto;
-    String nom_proyecto;
-    String estado;
-    Procedimiento[] procedimientos;
-    Tarea[] tareas;
-    Comentario[] comentarios;
-    Encargado encargado;
-    Campo campo;
+   private Integer id_proyecto;
+   private String nom_proyecto;
+   private String estado;
+   private Procedimiento[] procedimientos;
+   private Tarea[] tareas;
+   private Comentario[] comentarios;
+   private Encargado encargado;
+   private Campo campo;
 
 }

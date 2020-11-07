@@ -2,11 +2,12 @@ package ar.com.travelpaq.bootcamp.agriculturadigital.apiagricultura.models.domai
 
 public class Campo {
 
-    Integer id_campo;
-    Integer cantidad_plantas;
-    Integer sup;
-    String ubicacion;
-    Integer produccion_esperada;
-    Var_uva var_uva;
+   private Long id_campo;
+   private Integer cantidad_plantas;
+   private Integer superficie;
+   private String ubicacion;
+   private Integer produccion_esperada;
+
+    //Var_uva var_uva;
 
 }

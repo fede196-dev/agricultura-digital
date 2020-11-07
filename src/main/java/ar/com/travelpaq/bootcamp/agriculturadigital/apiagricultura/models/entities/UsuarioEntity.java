@@ -5,6 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.io.Serializable;
+
 @Table(name = "usuarios")
 
 @Entity
@@ -12,25 +14,25 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class UsuarioEntity {
+public class UsuarioEntity implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    Integer id;
+    private Integer id;
 
     @Column(name = "contrasena")
-    String password;
+    private String password;
 
-    String nombre;
+   private String nombre;
 
-    String apellido;
+    private String apellido;
 
-    String dni;//Username del usuario
+    private String dni;//Username del usuario
 //
-//    String profesion;
+//    private String profesion;
 //
-//    String email;
+//    private String email;
 
 
 }

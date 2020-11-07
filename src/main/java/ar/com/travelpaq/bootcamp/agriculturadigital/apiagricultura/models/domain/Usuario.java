@@ -2,10 +2,10 @@ package ar.com.travelpaq.bootcamp.agriculturadigital.apiagricultura.models.domai
 
 public class Usuario {
 
-    Integer id;
-    String nom_usuario;
-    String password;
-    String nombre;
-    String apellido;
+   private Integer id;
+   private String dni;//El dni se usará como nombre de usuario
+   private String password;
+   private String nombre;
+   private String apellido;
 
 }

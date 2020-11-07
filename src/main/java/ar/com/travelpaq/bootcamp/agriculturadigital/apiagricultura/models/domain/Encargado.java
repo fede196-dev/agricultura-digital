@@ -2,8 +2,8 @@ package ar.com.travelpaq.bootcamp.agriculturadigital.apiagricultura.models.domai
 
 public class Encargado {
 
-    String nombre;
-    String apellido;
-    Integer dni;
-    String profesion;
+   private String nombre;
+   private String apellido;
+   private Integer dni;
+   private String profesion;
 }

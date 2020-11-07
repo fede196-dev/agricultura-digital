@@ -4,8 +4,8 @@ import java.util.Date;
 
 public class Comentario {
 
-    String texto;
-    String usuario;
-    Date fecha;
+   private String texto;
+   private String usuario;
+   private Date fecha;
 
 }
